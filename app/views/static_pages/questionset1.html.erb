@@ -1,0 +1,10 @@
+<h1>問題セット1</h1>
+<p>Q1 あなたの人付き合いのモットーに、一番近いことわざはどれですか？
+</p>
+<%= form_tag('/result1', method: :post) do %>
+  <input type="radio" name="q1-1" value="a">「去る者は追わず」
+  <input type="radio" name="q1-1" value="b">「袖触れ合うも他生の縁」
+  <input type="radio" name="q1-1" value="c">「親しきなかにも礼儀あり」
+  <input type="radio" name="q1-1" value="d">「情けは人のためならず」
+  <input type = "submit" value = "投稿する">
+<% end %>
